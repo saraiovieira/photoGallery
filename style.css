@@ -71,5 +71,7 @@ footer {
 @media screen and (max-width: 600px) {
     .gallery-img {
         width: 100%;
+        min-height: 350px;
+        max-height: 350px;
     }
 }

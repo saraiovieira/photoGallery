@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		title Porto Gallery
+		link(rel='stylesheet' href='./gallery.css')
+	body
+		main
+			h1 Porto Gallery
+			.image-gallery
+				img.gallery-img.active(src='https://images.unsplash.com/photo-1549368245-2dd7d4595a89?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=714&q=80' alt='Porto')
+				each image in images
+						img.gallery-img(src='images'+image)
+			.btns
+				button.btn.prev(disabled='') Prev
+				button.btn.next Next
+				br
+				button(onclick="location.href='upload'").btn Upload new image
+			script(src='gallery.js')
+		footer
+			| Built by 
+			a(href='https://github.com/saraiovieira') Sara Vieira
+			|  | All photos are from 
+			a(href='https://unsplash.com/') Unsplash

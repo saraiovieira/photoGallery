@@ -1,0 +1,17 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Login
+    body 
+    form(action="/login" method="post")
+        p
+            | Welcome:
+            br 
+            input(type='email' placeholder="Enter email" name='email' value='')
+            br
+            br
+            input(type='password' placeholder="Enter password" name='password' value='')
+            br
+            input(type='submit' value='Log In')

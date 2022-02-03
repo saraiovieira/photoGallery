@@ -19,7 +19,7 @@ h1 {
 
 .gallery-img {
     display: none;
-    max-height: 600px;
+    min-height: 500px; 
 }
 
 .active {
@@ -72,6 +72,5 @@ footer {
     .gallery-img {
         width: 100%;
         min-height: 350px;
-        max-height: 350px;
     }
 }

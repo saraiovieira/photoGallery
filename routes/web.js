@@ -1,6 +1,6 @@
 import express from 'express';
 import { gallery } from '../controllers/gallery.js';
-import { isAuth } from '../middleware/auth.js.js'
+import { isAuth } from '../middleware/auth.js'
 import { uploadPath, uploadFile } from '../controllers/upload.js';
 import { imageUpload } from '../middleware/upload.js';
 import { register } from '../controllers/register.js';

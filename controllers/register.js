@@ -5,10 +5,10 @@ export const register = async (req, res) => {
 
     try {
         // Get user input
-        const { name, email, password } = req.body;
+        const { email, password } = req.body;
 
         // Validate user input
-        if (!(email && password && name)) {
+        if (!(email && password )) {
         res.status(400).send("All input is required");
         }
 
@@ -25,7 +25,6 @@ export const register = async (req, res) => {
 
         // Create user in the database
         const user = await User.create({
-        name,
         email: email.toLowerCase(), // sanitize: convert email to lowercase
         password: encryptedPassword,
         });

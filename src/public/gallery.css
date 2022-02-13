@@ -19,7 +19,7 @@ h1 {
 
 .gallery-img {
     display: none;
-    min-height: 500px; 
+    max-height: 350px; 
 }
 
 .active {
@@ -43,7 +43,7 @@ h1 {
 .btn {
     background-color: #0074d9;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 20px;
     border-color: transparent;
     border-radius: 5px;
@@ -53,6 +53,22 @@ h1 {
 
 .prev {
     margin-right: 15px;
+}
+
+.btn-new {
+    display: flex;
+    justify-content: center;
+}
+
+.new {
+    background-color: #0074d9;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .btn:disabled {

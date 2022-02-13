@@ -8,25 +8,32 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #0074d9;
 }
 
 .container {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 350px 120px 350px;
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 100px 80px 80px 80px;
-    display: flex;
-    flex-direction: column;
+    border-radius: 5px;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
-    padding: 0px 20px 90px;
+    padding: 40px 0px 5px;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 28px 2px 0px;
 }
 
 form {
@@ -38,3 +45,25 @@ form {
 .image {
     cursor: pointer;
 }
+
+#imgInput{
+    display: none;
+}
+
+#output{
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    background-color: #0074d9;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 25px 0px 0px;
+}
+
+

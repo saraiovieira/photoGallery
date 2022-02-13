@@ -6,11 +6,14 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Upload Images
         link(rel='stylesheet' href='./upload.css')
+        script(src='upload.js')
     body 
     .container
         h1 Upload images
+        h2 Select image
         form(action="/upload"  enctype="multipart/form-data" method="post")
             label.image
-                img(src='https://cdn-icons-png.flaticon.com/512/685/685669.png')
-                input(type='file' name='myfile' style='display:none')
-            input(type='submit' value='Submit')
+                img#output(src='https://cdn-icons-png.flaticon.com/512/685/685669.png')
+                input#imgInput(type='file' onchange="loadImg(event)")
+            input.btn(type='submit' value='Submit')
+    

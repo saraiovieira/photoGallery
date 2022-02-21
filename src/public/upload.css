@@ -15,25 +15,26 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 80px 350px 120px 350px;
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
     border-radius: 5px;
+    width: 50%;
+    margin: 110px auto 110px;
+    justify-content: center;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    padding: 40px 0px 5px;
 }
 
 h2 {
     font-size: 15px;
     text-align: center;
-    padding: 5px 28px 2px 0px;
+    margin: 15px 0px 5px;
 }
 
 form {
@@ -51,8 +52,10 @@ form {
 }
 
 #output{
-    width: 200px;
-    height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .btn {
@@ -63,7 +66,29 @@ form {
     border-color: transparent;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px 25px 0px 0px;
+    margin: 5px 0px 0px;
 }
 
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+        margin: 30px auto 30px;
+        justify-content: center;
+    } 
 
+    .form-container {
+        margin: 0px 8px;
+    } 
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 30px auto 30px;
+        justify-content: center;
+    } 
+
+    .form-container {
+        margin: 0px 8px;
+    } 
+}

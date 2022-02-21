@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 app.set('views', __dirname + '/src/views');
 app.set("view engine", "pug");
 
-app.use('/', express.static(__dirname + '/src/public'));
+app.use('/', express.static(__dirname + '/src'));
 
 app.use(
     session({

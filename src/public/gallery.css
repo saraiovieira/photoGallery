@@ -11,6 +11,19 @@ body {
     background-color: #fff;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    width: 50%;
+    margin: 30px auto 30px;
+    justify-content: center;
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -20,6 +33,7 @@ h1 {
 .gallery-img {
     display: none;
     max-height: 350px; 
+    width: 100%;
 }
 
 .active {
@@ -85,6 +99,10 @@ footer {
   
 
 @media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
     .gallery-img {
         width: 100%;
         min-height: 350px;

@@ -66,8 +66,15 @@ form {
     border-color: transparent;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px 0px 0px;
+    margin: 5px 0px 5px 0px;
 }
+
+.err {
+    color: red;
+    font-size: 11px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 992px) {
     .container {

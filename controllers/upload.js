@@ -5,14 +5,14 @@ export const uploadPath = (req, res) => {
 export const uploadFile = (req,res) => {
     try {
     if (req.file == undefined) {
-      return res.send(`You must select a file.`);
-    }
+      return res.render("upload", {errors: "You must select a file"});
+    } 
 
-    return res.send(`File has been uploaded.`);
+    return res.redirect('/uploaded');
 
     } catch (error) {
     console.log(error);
-    return res.send(`Error when trying upload image: ${error}`);
+    return res.render("upload", {errors: `Error when trying upload image: ${error}`});
     }
 };
 

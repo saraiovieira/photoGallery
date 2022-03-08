@@ -8,13 +8,13 @@ html(lang="en")
         link(rel='stylesheet' href='/public/upload.css')
         script(src='/public/upload.js')
     body 
-    .container
-        h1 Upload images
-        h2 Select image
-        form(action="/upload"  enctype="multipart/form-data" method="post")
-            label.image
-                img#output(src='https://cdn-icons.flaticon.com/png/512/1817/premium/1817363.png?token=exp=1645186471~hmac=59815bba364f66f827c9ec2804016622')
-                input#imgInput(type='file' name='image' onchange="loadImg(event)")
-            input.btn(type='submit' value='Submit')
-        p.err=errors
-    
+        .container
+            h1 Upload images
+            h2 Select image
+            form(action="/upload"  enctype="multipart/form-data" method="post")
+                label.image
+                    ion-icon(name='duplicate-outline')
+                    img#output(src='/public/icon.svg')
+                    input#imgInput(type='file' name='image' onchange="loadImg(event)")
+                input.btn(type='submit' value='Submit')
+            p.err=errors

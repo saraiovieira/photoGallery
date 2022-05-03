@@ -1,152 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto Mono', sans-serif;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #c6c0b3;
+  background-color: #c6c0b3;
 }
 
 .container {
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+  background-color: #fbfbfb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 .img-container {
-    width: 70%;
+  width: 70%;
 }
 
 .gallery-img {
-    width: fill-available;
-    float: right;
-    width: -webkit-fill-available;
-    width: -moz-available;
-    border-radius: 5px 0px 0px 5px;
+  width: fill-available;
+  float: right;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  border-radius: 5px 0px 0px 5px;
 }
 
 .form-container {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
 h1 {
-    font-size: 40px;
-    text-align: center;
-    margin: 50px 0px 5px;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 0px 5px;
 }
 
 h2 {
-    font-size: 17px;
-    text-align: center;
-    margin: 50px 0px 25px;
+  font-size: 17px;
+  text-align: center;
+  margin: 50px 0px 25px;
 }
 
-
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: min-content;
-    margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  margin-bottom: 10px;
 }
 
 label {
-    font-size: 14px;
-    align-self: flex-start;
+  font-size: 14px;
+  align-self: flex-start;
 }
 
-.email,  .password {
-    width: 100%;
-    font-size: 13px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    border: solid 1px #7c7c7c;
-    padding: 3px;
-    border-radius: 3px;
+.email,
+.password {
+  width: 100%;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  border: solid 1px #7c7c7c;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 .btn {
-    background-color: #0074d9;
-    color: #fff;
-    font-size: 13px;
-    padding: 2px 66px;
-    border-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
+  background-color: #0074d9;
+  color: #fff;
+  font-size: 13px;
+  padding: 2px 66px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
 }
 
 .err {
-    color: #cc0000;
-    font-size: 11px;
-    text-align: center;
-    align-self: center;
+  color: #cc0000;
+  font-size: 11px;
+  text-align: center;
+  align-self: center;
 }
 
 @media only screen and (max-width: 992px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    } 
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .img-container {
-        width: 100%;
-    }
+  .img-container {
+    width: 100%;
+  }
 
-    .form-container {
-        width: 100%;
-        margin: 0px;
-    }
+  .form-container {
+    width: 100%;
+    margin: 0px;
+  }
 
-    h1 {
-        margin: 10px 0px 5px;
-    }
-    
-    h2 {
-        margin: 0px 0px 15px;
-    }
+  h1 {
+    margin: 10px 0px 5px;
+  }
+
+  h2 {
+    margin: 0px 0px 15px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .img-container {
-        width: 100%;
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .gallery-img {
-        border-radius: 5px 5px 0px 0px;
-    }
+  .img-container {
+    width: 100%;
+  }
 
-    .form-container {
-        width: 100%;
-        margin: 0px;
-    }
-    
-    h1 {
-        margin: 10px 0px 5px;
-    }
-    
-    h2 {
-        margin: 40px 0px 15px;
-    }
+  .gallery-img {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .form-container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  h1 {
+    margin: 10px 0px 5px;
+  }
+
+  h2 {
+    margin: 40px 0px 15px;
+  }
 }
-

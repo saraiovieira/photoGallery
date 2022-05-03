@@ -2,8 +2,8 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
         title Upload Images
         link(rel='stylesheet' href='/public/upload.css')
         script(src='/public/upload.js')
@@ -11,7 +11,7 @@ html(lang="en")
         .container
             h1 Upload images
             h2 Select image
-            form(action="/upload"  enctype="multipart/form-data" method="post")
+            form(action="/upload" enctype="multipart/form-data" method="post")
                 label.image
                     ion-icon(name='duplicate-outline')
                     img#output(src='/public/icon.svg')

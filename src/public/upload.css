@@ -1,57 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto Mono', sans-serif;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #0074d9;
+  background-color: #0074d9;
 }
 
 .container {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 5px;
-    width: 50%;
-    margin: 110px auto 110px;
-    justify-content: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  width: 50%;
+  margin: 110px auto 110px;
+  justify-content: center;
 }
 
 h1 {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 h2 {
-    font-size: 15px;
-    text-align: center;
-    margin: 15px 0px 5px;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px 0px 5px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-#imgInput{
-    display: none;
+#imgInput {
+  display: none;
 }
 
-#output{
+#output {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,43 +59,42 @@ form {
 }
 
 .btn {
-    background-color: #0074d9;
-    color: #fff;
-    font-size: 15px;
-    padding: 5px 20px;
-    border-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px 0px 5px 0px;
+  background-color: #0074d9;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 20px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0px 5px 0px;
 }
 
 .err {
-    color: red;
-    font-size: 11px;
-    text-align: center;
+  color: red;
+  font-size: 11px;
+  text-align: center;
 }
 
-
 @media only screen and (max-width: 992px) {
-    .container {
-        width: 90%;
-        margin: 30px auto 30px;
-        justify-content: center;
-    } 
+  .container {
+    width: 90%;
+    margin: 30px auto 30px;
+    justify-content: center;
+  }
 
-    .form-container {
-        margin: 0px 8px;
-    } 
+  .form-container {
+    margin: 0px 8px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .container {
-        width: 90%;
-        margin: 30px auto 30px;
-        justify-content: center;
-    } 
+  .container {
+    width: 90%;
+    margin: 30px auto 30px;
+    justify-content: center;
+  }
 
-    .form-container {
-        margin: 0px 8px;
-    } 
+  .form-container {
+    margin: 0px 8px;
+  }
 }

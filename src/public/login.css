@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     margin: 50px 0px 25px;
 }
@@ -60,19 +60,20 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: min-content;
+    margin-bottom: 10px;
 }
 
-.email {
-    font-size: 13px;
-    margin: 0px 5px;
-    border: solid 1px #7c7c7c;
-    padding: 3px;
-    border-radius: 3px;
+label {
+    font-size: 14px;
+    align-self: flex-start;
 }
 
-.password {
+.email,  .password {
+    width: 100%;
     font-size: 13px;
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
     border: solid 1px #7c7c7c;
     padding: 3px;
     border-radius: 3px;
@@ -90,9 +91,10 @@ form {
 }
 
 .err {
-    color: red;
+    color: #cc0000;
     font-size: 11px;
     text-align: center;
+    align-self: center;
 }
 
 @media only screen and (max-width: 992px) {

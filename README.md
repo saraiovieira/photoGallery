@@ -18,7 +18,7 @@ Later I had the idea to create a server-side for this project where only authent
 ## Screenshots
 
 #### Home page
-<img height="600" width="1000" src="https://raw.githubusercontent.com/saraiovieira/photoGallery/main/screenshots/main-page.png" alt="Main Page"> 
+<img height="600" width="1029" src="https://raw.githubusercontent.com/saraiovieira/photoGallery/main/screenshots/main-page.png" alt="Main Page"> 
 <img height="700" width="1029" src="https://raw.githubusercontent.com/saraiovieira/photoGallery/main/screenshots/login-page.png" alt="Login Page">
 <img height="600" width="1000" src="https://raw.githubusercontent.com/saraiovieira/photoGallery/main/screenshots/upload-page.png" alt="Upload Page">
 <img height="600" width="1000" src="https://raw.githubusercontent.com/saraiovieira/photoGallery/main/screenshots/upload-page-image.png" alt="Upload Page with image">

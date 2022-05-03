@@ -12,8 +12,10 @@ html(lang="en")
             .form-container
                 h1 Porto Gallery
                 h2 Log in to your account
-                form(action="/login" method="post")   
-                    input.email(type='email' placeholder="Enter email" name='email' value='')
-                    input.password(type='password' placeholder="Enter password" name='password' value='')
+                form(action="/login" method="post")
+                    label(for='email') Email
+                    input.email(type='email' name='email')
+                    label(for='password') Password
+                    input.password(type='password' name='password')
                     button.btn(type='submit') Login
                     p.err=errors

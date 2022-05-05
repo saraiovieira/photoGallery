@@ -63,6 +63,5 @@ Start the server
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaScript, [Pug](https://pugjs.org/api/getting-started.html)
-
+**Client:** [Pug](https://pugjs.org/api/getting-started.html),CSS and Vanilla JavaScript.
 **Server:** [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), [Mongoose](https://mongoosejs.com/), [Multer](https://www.npmjs.com/package/multer) 
